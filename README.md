@@ -13,5 +13,7 @@ Tässä ensimmäinen linkki, josta voit aloittaa: https://koodihaaste-api.solida
 # Toteutus
 
 Koodi ensin pyörittää läpi viestin kerrallaan käyttäen kaikkia mahdollisia ceasar shiftauksen arvoja ja valikoi niistä parhaan sen mukaan miten siinä esiintyy suomen kielen yleisimpiä ja vähiten käytettyjä kirjaimia. Tämän jälkeen näistä pitää erotella "no bullshit" ja "bullshit" vaihtoehdot.
+
 Aluksi koodi tutki muutamalla perussäännöillä voiko sanat olla suomea mutta äkkiä kävi ilmi, että koska joukossa on lauseita joissa osa on suomea ja osa voisi olla suomea sen mukaan missä kohtaa ja kuinka monta vokaalia/konsonanttia sanassa on, tehtävää ei voi  ratkaista täydellisesti ilman niin sanottua sanakirjaa. Tiettävästi tämä ei ole paras/tehokkain keino mutta muunlaiseen tapaan olisi ollut valmista koodia ja tehtävästä johtuen tässä on viimeiseen asti vältetty kopioimasta muualta koodia.
+
 Koodissa on mukana sanakirja eli lähes kaikki suomen kielen sanat perusmuodossaan. Tämän lisäyksen jälkeen koodiin tuli osio joka testaa onko sana perusmuodossa sanakirjassa tai onko sana jotenkin taivutetussa muodossa. Sanalle annetaan pisteitä perustuen näihin testeihin. Koska kielessä on myös yhdyssanoja tarkistetaan jokainen sana vielä sen mukaisestikin.
